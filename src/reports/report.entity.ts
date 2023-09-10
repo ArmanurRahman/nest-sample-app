@@ -27,6 +27,9 @@ export class Report {
   @Column()
   lat: number;
 
+  @Column({ default: true })
+  approved: boolean;
+
   @ManyToOne(() => User, (user) => user.reports)
   user: User;
 }
