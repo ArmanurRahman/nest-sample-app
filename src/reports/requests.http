@@ -6,7 +6,7 @@ Content-Type: application/json
     "model": "CH-R",
     "price": 12000,
     "year": 2010,
-    "millage": 100,
+    "mileage": 100,
     "lat": 0,
     "lng": 0
 }
@@ -18,3 +18,7 @@ Content-Type: application/json
 {
     "approved": true
 }
+
+
+### Get an estimate for an existing vehicle
+GET http://localhost:3000/reports?make=toyota&model=corolla&lng=0&lat=0&mileage=20000&year=1980

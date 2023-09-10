@@ -19,7 +19,7 @@ export class Report {
   year: number;
 
   @Column()
-  millage: number;
+  mileage: number;
 
   @Column()
   lng: number;

@@ -17,7 +17,7 @@ export class ReportDto {
   year: number;
 
   @Expose()
-  millage: number;
+  mileage: number;
 
   @Expose()
   lng: number;
