@@ -1,0 +1,12 @@
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+    "make": "Toyota",
+    "model": "CH-R",
+    "price": 12000,
+    "year": 2010,
+    "millage": 100,
+    "lat": 0,
+    "lng": 0
+}
